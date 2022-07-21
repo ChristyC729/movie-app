@@ -1,39 +1,14 @@
-### Objective
+# Introduction
 
-Your assignment is to implement a React Native movie listing app.
-
-### Brief
-
-You are the owner of a movie theater in **Thikkiiana City,** on the Wookiee homeworld of Kashyyyk. Your customers are bored with the never changing selection and are asking for something completely different - they want to see what's playing on Earth. Wookies are the main exporter of Computer Technology for the New Republic so naturally you roll up your sleeves and get to work. You quickly scribble down some notes and after a few hours of relentless work you have a design in mind.
-
-Please feel free to make any simplifying assumptions to the app, just document them so we can go over them later.
+The objective of this project is to create a simple Movie Application. This project utilized React Native and made fetch calls at a movie API to populate the application. Two different search functions were implemented. The API has a provided search view that parses all movie information and returns matching word cases as the results. I created a separate search functionality to parse movie titles for matching characters.
 
 ### Tasks
 
 -   Implement a React Native movie listing app
 -   Build out the project to the designs inside the `/Designs` folder
--   Connect your application to the **CodeSubmit Movie Database** at `https://wookie.codesubmit.io/movies`
+-   Connect your application to the **Movie Database** at `https://wookie.codesubmit.io/movies`
 -   For authentication pass the `"Authorization: Bearer Wookie2019"` header
 -   Parse the API response and display the results as outlined in the design. **Make sure to group movies by categories**.
 -   Implement a detail view for the movies in the list
 -   Implement the search view by connecting to `https://wookie.codesubmit.io/movies?q=<search_term>`
 
-### Deliverables
-
-Make sure to include all source code in this repository.
-
-For iOS, include a assignment.zip file containing your compressed .app bundle **in the root of the repository**.
-Your .app bundle must represent a simulator build of your app. After running in iOS Simulator via Xcode, look in ~/Library/Developer/Xcode/DerivedData/<project-name>/Build/Products/Debug-iphonesimulator/.
-Alternatively, you may run xcodebuild -sdk iphonesimulator (if you use .xcodeproj) or xcodebuild -sdk iphonesimulator -workspace Sample.xcworkspace/ -scheme <your-scheme> -configuration Debug (if you use .xcworkspace) in your project directory, then zip the .app bundle in build/Debug-iphonesimulator/.
-
-For Android, include assignment.apk containing your app **in the root of the repository**.
-After your app is built, either via Android Studio or by running the command ./gradlew assembleDebug in your project directory, look in <project-name>/<module-name>/build/outputs/apk/.
-
-
-### CodeSubmit
-
-Please push your changes to the master branch when you are happy with it. After you have pushed your code, you may submit the assignment on the assignment page.
-
-All the best and happy coding,
-
-The Belfry Team
